@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-pastel-bg text-slate-800 antialiased selection:bg-pastel-text-pink/30;
+  }
+}
